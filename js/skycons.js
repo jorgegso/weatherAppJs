@@ -231,7 +231,7 @@
     ctx.globalCompositeOperation = 'source-over';
   }
 
- 
+
 
   var WIND_PATHS = [
     [
