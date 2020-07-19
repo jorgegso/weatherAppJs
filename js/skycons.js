@@ -12,10 +12,10 @@
       global.oRequestAnimationFrame ||
       global.msRequestAnimationFrame,
       caf = global.cancelAnimationFrame ||
-        global.webkitCancelAnimationFrame ||
-        global.mozCancelAnimationFrame ||
-        global.oCancelAnimationFrame ||
-        global.msCancelAnimationFrame;
+      global.webkitCancelAnimationFrame ||
+      global.mozCancelAnimationFrame ||
+      global.oCancelAnimationFrame ||
+      global.msCancelAnimationFrame;
 
     if (raf && caf) {
       requestInterval = function (fn) {
