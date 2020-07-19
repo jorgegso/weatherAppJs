@@ -21,7 +21,8 @@ window.addEventListener("load", () => {
         })
         .then(data => {
           console.log(data);
-          //data.currently.temperature //data.currently.summary
+          //data.currently.temperature 
+          //data.currently.summary
           const { temperature, summary, icon } = data.currently;
           //set dom 
           temperatureDegree.textContent = temperature;
